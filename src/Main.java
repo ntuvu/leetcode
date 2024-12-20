@@ -1,13 +1,12 @@
-import Problem.PalindromeNumber;
-import Problem.TwoSum;
+import Problem.*;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
 
-
-        var res = PalindromeNumber.isPalindrome(123);
+        String input = "()[]{}";
+        var res = ValidParentheses.isValid(input);
 
         System.out.println(res);
     }
