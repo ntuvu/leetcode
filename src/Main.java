@@ -4,10 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-
-        String input = "()[]{}";
-        var res = ValidParentheses.isValid(input);
-
-        System.out.println(res);
+        int[] arr = {1, 1, 2, 2, 3, 4, 4};
+        System.out.println(RemoveDuplicatesFromSortedArray.removeDuplicates(arr));
     }
 }
