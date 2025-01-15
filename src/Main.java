@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {1, 1, 2, 2, 3, 4, 4};
-        System.out.println(RemoveDuplicatesFromSortedArray.removeDuplicates(arr));
+        int[] arr = {1,3,5,6};
+        int target = 5;
+        System.out.println(SearchInsertPosition.searchInsert(arr, target));
     }
 }
